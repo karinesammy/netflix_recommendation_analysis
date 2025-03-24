@@ -6,7 +6,7 @@ import os
 
 #%% Data Processing
 # read netflix data
-df = pd.read_csv("\netflix_data_cleaned.csv")
+df = pd.read_csv("netflix_data_cleaned.csv")
 
 # extract unique type for dropdown menu
 show_type = df['type'].dropna().unique()
