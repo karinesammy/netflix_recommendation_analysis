@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-import ast
-import os
 
 #%% Data Processing
 # read netflix data
